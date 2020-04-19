@@ -1,13 +1,14 @@
-Sinha2016
----------
+SinhaEtAl2020
+--------------
 
-Source code for my Ph.D. simulations.
+Source code for structural plasticity simulations.
+Pre-print: https://www.biorxiv.org/content/early/2019/10/21/810846
 
 Requirements
 ============
 
 - `my fork of NEST <https://github.com/sanjayankur31/nest-simulator>`__.
-  It's kept in sync with upstream. The only difference between the two is that my fork does not use the internal implementation of NEST that updates network connectivity. Instead, required algorithms are implemented in the simulation script in Python and connectivity is updated in NEST using the PyNEST API. 
+  This does not use the internal implementation of NEST that updates network connectivity. Instead, required algorithms are implemented in the simulation script in Python and connectivity is updated in NEST using the PyNEST API. 
   The NEST development team intends to remove structural plasticity from NEST core in the future. The plan is to develop a standalone structural plasticity manager that will interface with different simulators.
 
 - you can use `my scripts <https://github.com/sanjayankur31/Sinha2016-scripts>`__ to post-process the data
