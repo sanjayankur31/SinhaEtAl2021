@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-NEST simulation code for my PhD research.
+NEST simulation source code for structural plasticity simulations.
+Pre-print: https://www.biorxiv.org/content/early/2019/10/21/810846
 
-File: Sinha2016.py
+File: Sinha2020.py
 
-Copyright 2019 Ankur Sinha
+Copyright 2020 Ankur Sinha
 Author: Ankur Sinha <sanjay DOT ankur AT gmail DOT com>
 
 This program is free software: you can redistribute it and/or modify
@@ -38,7 +39,7 @@ import time
 mpi4py.rc.errors = 'fatal'
 
 
-class Sinha2016:
+class Sinha2020:
 
     """Simulations for my PhD 2016."""
 
@@ -3443,7 +3444,7 @@ if __name__ == "__main__":
     store_patterns = False
     deafferentate_network = True
     repair_network = True
-    simulation = Sinha2016()
+    simulation = Sinha2020()
     logging.info("Rank {}: SIMULATION STARTED".format(simulation.rank))
 
     # simulation setup
