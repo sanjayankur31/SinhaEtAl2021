@@ -2,7 +2,9 @@ SinhaEtAl2021
 --------------
 
 Source code for structural plasticity simulations.
+
 Pre-print: https://www.biorxiv.org/content/early/2019/10/21/810846
+
 ModelDB link: http://modeldb.yale.edu/267035
 
 Requirements
