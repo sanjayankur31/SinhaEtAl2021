@@ -16,6 +16,11 @@ Requirements
 
 - you can use `my scripts <https://github.com/sanjayankur31/Sinha2016-scripts>`__ to post-process the data
 
+License
+========
+
+GPLv3
+
 Outputs from the simulation
 ============================
 
