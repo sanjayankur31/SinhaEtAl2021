@@ -3,6 +3,8 @@ SinhaEtAl2021
 
 Source code for structural plasticity simulations.
 
+Published in PLoS CB at: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008996
+
 Pre-print: https://www.biorxiv.org/content/early/2019/10/21/810846
 
 ModelDB link: http://modeldb.yale.edu/267035
